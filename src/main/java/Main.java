@@ -236,10 +236,7 @@ class Human implements Comparable<Human> {
 
     @Override
     public String toString() {
-        return
-                firstName + ' ' +
-                lastName + ' ' +
-                + age;
+        return firstName + ' ' +lastName + ' ' + age;
     }
 
     @Override
